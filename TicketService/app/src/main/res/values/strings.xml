@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">TicketService</string>
+    <string name="Welcome">歡迎光臨訂票系統</string>
+    <string name="date">乘車日期</string>
+    <string name="FromWhere">乘車起點</string>
+    <string name="ToWhere">乘車終點</string>
+    <string name="Count">訂票張數</string>
+    <string-array name="from">
+        <item>基隆</item>
+        <item>台北</item>
+        <item>桃園</item>
+        <item>新竹</item>
+        <item>苗栗</item>
+        <item>台中</item>
+        <item>彰化</item>
+        <item>雲林</item>
+        <item>嘉義</item>
+        <item>台南</item>
+        <item>高雄</item>
+        <item>屏東</item>
+        <item>台東</item>
+        <item>花蓮</item>
+        <item>宜蘭</item>
+    </string-array>
+    <string-array name="from2">
+        <item>基隆</item>
+        <item>台北</item>
+        <item>桃園</item>
+        <item>新竹</item>
+        <item>苗栗</item>
+        <item>台中</item>
+        <item>彰化</item>
+        <item>雲林</item>
+        <item>嘉義</item>
+        <item>台南</item>
+        <item>高雄</item>
+        <item>屏東</item>
+        <item>台東</item>
+        <item>花蓮</item>
+        <item>宜蘭</item>
+    </string-array>
+    <string name="OK">確認訂購</string>
+    <string name="OKDate">日期</string>
+    <string name="OKCount">張數</string>
+    <string name="OKFrom">起站</string>
+    <string name="OKTo">迄站</string>
+</resources>
