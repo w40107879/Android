@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="9dip">
+
+    <Chronometer
+        android:id="@+id/MyChronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dip"
+        android:textSize="24.5sp"></Chronometer>
+
+    <TableLayout
+        android:id="@+id/MyTableLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="393dp"></TableLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="109dp"
+            android:layout_height="59dp"
+            android:layout_alignBottom="@+id/button"
+            android:layout_alignParentStart="true"
+            android:text="@string/keepplaying" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/seekBar"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="13dp" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView"
+            android:layout_alignBottom="@+id/button"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="155dp"
+            android:layout_marginRight="155dp"
+            android:layout_marginBottom="49dp"
+            android:layout_toStartOf="@+id/button"
+            android:layout_toLeftOf="@+id/button"
+            android:max="7"
+            android:min="4"
+            android:progress="4" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="109dp"
+            android:layout_height="59dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginTop="43dp"
+            android:layout_marginEnd="12dp"
+            android:text="@string/restart" />
+    </RelativeLayout>
+
+</LinearLayout>
