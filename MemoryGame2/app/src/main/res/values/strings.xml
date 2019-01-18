@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">配對記憶遊戲</string>
+    <string name="reset">回到設定</string>
+    <string name="restart">重新開始</string>
+    <string name="keepplaying">繼續遊戲</string>
+</resources>
